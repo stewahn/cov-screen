@@ -90,7 +90,7 @@
                 <p>Die Fallzahlen auf der <a href="https://www.cottbus.de/verwaltung/gb_iii/gesundheit/corona/index.html">Internetseite der Stadt Cottbus/Ch&oacute;&sacute;ebuz zur Corona-Lage</a> haben Priorität und werden im oberen Bereich der Rasterfelder dargestellt. Beim Seitenaufruf fragt diese Anwendung die Zahlen direkt von der Internetseite der Stadt Cottbus/Ch&oacute;&sacute;ebuz ab.</p>
                 <p>Die vom RKI zur Verfügung gestellten Fallzahlen für die Stadt Cottbus/Ch&oacute;&sacute;ebuz werden beim Seitenaufruf von einer REST API des RKI abgefragt. Die Zahlen auf <a href="https://www.cottbus.de/verwaltung/gb_iii/gesundheit/corona/index.html">Cottbus.de</a> unterscheiden sich von den Zahlen des RKI (vgl. <a href="https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4">Robert Koch-Institut: COVID-19-Dashboard</a>). Ursachen liegen evtl. in der abgefragten Datenquelle selbst als auch in zeitlichen Übermittlungsfehlern.</p>
                 <p>Die Balkendiagramme (hoverbar/antippbar) sind Auswertungen über die REST API und berücksichtigen Geschlecht und Altersgruppen.</p>
-                <p>Der Quellcode dieser Anwendung steht auf <a href="https://github.com/digital-codebuz/cov-screen">Github</a> öffentlich unter der Creative Commons Lizen CC-BY zur Verfügung. Bei Hinweisen und Fragen melden Sie sich bitte.</p><br>
+                <p>Der Quellcode dieser Anwendung steht auch auf <a href="https://github.com/digital-codebuz/cov-screen">Github</a> öffentlich unter der Creative Commons Lizen CC-BY zur Verfügung. Bei Hinweisen und Fragen melden Sie sich bitte.</p><br>
                 
                 <h6>Impressum:</h6><br>
                 <p>Ansprechpartner: <a href="https://github.com/stewahn">Stefan Stöhr</a></p>
@@ -114,7 +114,7 @@
 				    <h6 class="card-subtitle mb-2 text-muted">Datenstand</h6>
                     <h4 class="card-title"><a id="cbUpdate"></a></h4>
                     <div class="card-footer" style="width: auto; height: 50px; background-color: #343a40">
-                    <small class="text-muted"><a id="rkiUpdate" style="color: rgb(125,125,125);">RKI:&nbsp;</a></small>
+                    <small class="text-muted"><a id="rkiUpdate" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                   </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                     <h6 class="card-subtitle mb-2 text-muted">7-Tage-Inzidenz</h6>
                     <h4 class="card-title"><a id="cbSieben"></a><!--<a style="color:rgb(250,0,0);font-size: 0.7em; padding-left: 10px;">+</a><a id="countup" style="color:rgb(250,0,0);font-size: 0.7em">4</a>--></h4>
                     <div class="card-footer" style="width: auto; background-color: #343a40; height: 50px;">
-                      <small class="text-muted"><a id="rkiSieben" style="color: rgb(125,125,125);">RKI:&nbsp;</a></small>
+                      <small class="text-muted"><a id="rkiSieben" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                     </div>
                 </div>
             </div>
@@ -135,10 +135,10 @@
 		<div class="col-auto mb-3">
             <div class="card" style="width: 18rem; background-color: rgb(243,243,243);border: 1px solid rgb(100,100,100);">
                 <div class="card-body" style="padding-left: 0; padding-right: 0; padding-bottom: 0;">
-                    <h6 class="card-subtitle mb-2 text-muted">aktuelle/gesamten Infektionen</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">aktive/gesamten Infektionen</h6>
                     <h4 class="card-title"><a id="cbAktuellInfi"></a><a id="cbGesamtInfi"></a><a style="color: rgb(125,125,125);font-size: 0.7em;" id="cbAktuellInfiChange"></a><!--<a style="color:rgb(250,0,0);font-size: 0.7em; padding-left: 10px;">+</a><a id="countup" style="color:rgb(250,0,0);font-size: 0.7em;">71</a>--></h4>
                     <div class="card-footer" style="width: auto; background-color: #343a40; height: 50px;">
-                      <small class="text-muted"><a id="rkiAktuellInfi" style="color: rgb(125,125,125);">RKI:&nbsp;</a></small>
+                      <small class="text-muted"><a id="rkiAktuellInfi" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                     <h6 class="card-subtitle mb-2 text-muted">Genesen</h6>
                     <h4 class="card-title"><a id="cbGen"></a><!--<a style="color:rgb(25, 150, 0);font-size: 0.7em; padding-left: 10px;">+</a><a id="countup" style="color:rgb(25,150,0);font-size: 0.7em;">38</a>--></h4>
                     <div class="card-footer" style="width: auto; background-color: #343a40; height: 50px;">
-                      <small class="text-muted"><a id="rkiGen" style="color: rgb(125,125,125);">RKI:&nbsp;</a></small>
+                      <small class="text-muted"><a id="rkiGen" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@
                     <h6 class="card-subtitle mb-2 text-muted">Verstorben</h6>
                     <h4 class="card-title"><a id="cbVerstor"></a><a style="color: rgb(125,125,125);font-size: 0.7em;" id="cbVerstorChange"></a><!--<a style="color:rgb(250,0,0);font-size: 0.7em; padding-left: 10px;">+</a><a id="countup" style="color:rgb(250,0,0);font-size: 0.7em">5</a>--></h4>
                     <div class="card-footer" style="width: auto; background-color: #343a40; height: 50px;">
-                      <small class="text-muted"><a id="rkiVerstor" style="color: rgb(125,125,125);">RKI:&nbsp;</a></small>
+                      <small class="text-muted"><a id="rkiVerstor" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                     </div>
                 </div>
             </div>
@@ -171,10 +171,10 @@
     <div class="col-auto mb-3">
             <div class="card" style="width: 18rem; background-color: rgb(243,243,243);border: 1px solid rgb(100,100,100);">
                 <div class="card-body" style="padding-left: 0; padding-right: 0; padding-bottom: 0;">
-                    <h6 class="card-subtitle mb-2 text-muted">Quarant&auml;ne</h6>
-                    <h4 class="card-title"><a id="cbQuaran"></a><!--<a style="color:rgb(25,150,0);font-size: 0.7em; padding-left: 10px;">-</a><a id="countup" style="color:rgb(25,150,0);font-size: 0.7em;">4</a>--></h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Datenquelle</h6>
+                    <h4 class="card-title"><a id="cbQuaran">Robert Koch Institut</a><!--<a style="color:rgb(25,150,0);font-size: 0.7em; padding-left: 10px;">-</a><a id="countup" style="color:rgb(25,150,0);font-size: 0.7em;">4</a>--></h4>
                     <div class="card-footer" style="width: auto; background-color: #343a40; height: 50px;">
-                      <small class="text-muted"><a id="rkiQuaran" style="color: rgb(125,125,125);">RKI: Keine Daten zu Quarant&auml;ne</a></small>
+                      <small class="text-muted"><a id="rkiQuaran" style="color: rgb(125,125,125);">RKI COVID-19 Datenhub</a></small>
                     </div>
                 </div>
             </div>
@@ -309,38 +309,58 @@ var gruppe6MannTot = 0;
 //
 var genesenFrau = 0;
 var genesenMann = 0;
-
+//
+var gruppe1Gen = 0;
+var gruppe2Gen = 0;
+var gruppe3Gen = 0;
+var gruppe4Gen = 0;
+var gruppe5Gen = 0;
+var gruppe6Gen = 0;
+//
+var gruppe1FrauGen = 0;
+var gruppe1MannGen = 0;
+var gruppe2FrauGen = 0;
+var gruppe2MannGen = 0;
+var gruppe3FrauGen = 0;
+var gruppe3MannGen = 0;
+var gruppe4FrauGen = 0;
+var gruppe4MannGen = 0;
+var gruppe5FrauGen = 0;
+var gruppe5MannGen = 0;
+var gruppe6FrauGen = 0;
+var gruppe6MannGen = 0;
+	
 // CB ZAHLEN VON COTTBUS.DE HOLEN 
 
-cottbusData();
+// cottbusData();
 
-function cottbusData() {
+//function cottbusData() {
 
-    $.getJSON('https://api.allorigins.win/get?url=' + encodeURIComponent('https://www.cottbus.de/verwaltung/gb_iii/gesundheit/corona/index.html'), function (data) {            
+//    $.getJSON('https://api.allorigins.win/get?url=' + encodeURIComponent('https://www.cottbus.de/verwaltung/gb_iii/gesundheit/corona/index.html'), function (data) {            
             
-            $("#hiddenCBQuery").html(data.contents);
+//            $("#hiddenCBQuery").html(data.contents);
             
-            var cbTag = document.getElementsByTagName("tbody");
+//            var cbTag = document.getElementsByTagName("tbody");
 
-            var z = $("#filter").append(cbTag)
+//            var z = $("#filter").append(cbTag)
 
-            $("#cbUpdate").append(z[0].children[0].children[0].children[1].children[0].innerHTML);
-            $("#cbSieben").append(z[0].children[0].children[6].children[1].innerHTML);
-            $("#cbAktuellInfi").append(z[0].children[0].children[5].children[1].innerHTML);
-            $("#cbGesamtInfi").append("&nbsp;/" + z[0].children[0].children[1].children[1].innerHTML);
-            $("#cbAktuellInfiChange").append("&nbsp;" + z[0].children[0].children[2].children[1].innerHTML);
-            $("#cbGen").append(z[0].children[0].children[3].children[1].innerHTML);
+//            $("#cbUpdate").append(z[0].children[0].children[0].children[1].children[0].innerHTML);
+//            $("#cbQuaran").append(z[0].children[0].children[6].children[1].innerHTML);
+//            $("#cbAktuellInfi").append(z[0].children[0].children[5].children[1].innerHTML);
+//            $("#cbGesamtInfi").append("&nbsp;/" + z[0].children[0].children[1].children[1].innerHTML);
+//            $("#cbAktuellInfiChange").append("&nbsp;" + z[0].children[0].children[2].children[1].innerHTML);
+//            $("#cbGen").append(z[0].children[0].children[3].children[1].innerHTML);
             
             //$("#cbVerstor").append(z[0].children[0].children[4].children[1].innerHTML);
-            var cbDataVerstorben = z[0].children[0].children[4].children[1].innerHTML;
-            cbDataVerstorben = cbDataVerstorben.replace(")","");
-            cbDataVerstorben = cbDataVerstorben.split('(');
-            $("#cbVerstor").append(cbDataVerstorben[0]);
-            $("#cbVerstorChange").append("&nbsp;" + cbDataVerstorben[1]);
+//            var cbDataVerstorben = z[0].children[0].children[4].children[1].innerHTML;
+//            cbDataVerstorben = cbDataVerstorben.replace(")","");
+//            cbDataVerstorben = cbDataVerstorben.split('(');
+//            $("#cbVerstor").append(cbDataVerstorben[0]);
+//            $("#cbVerstorChange").append("&nbsp;" + cbDataVerstorben[1]);
 
-            $("#cbQuaran").append(z[0].children[0].children[7].children[1].innerHTML);
-    });   
-};
+//            $("#cbSieben").append(z[0].children[0].children[7].children[1].innerHTML);
+//    });   
+//};
 
 // RKI 7-TAGE-INZIDENZ-API // <a style="color: rgb(125,125,125);font-size: 0.7em; padding-left: 10px;">+</a>
 
@@ -352,7 +372,7 @@ $.getJSON('https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RK
 
     var jsonVar7 = data.features;
 
-    $("#rkiSieben").append(jsonVar7[0].attributes.cases7_per_100k_txt + " (" + jsonVar7[0].attributes.last_update + ")");
+    $("#cbSieben").append(jsonVar7[0].attributes.cases7_per_100k_txt);
 
 });
 }
@@ -399,21 +419,35 @@ function nichtSieben () {
                         genesenMann =  genesenMann + jsonVar[i].attributes.AnzahlGenesen;            
                 }};
 
-                // ERMITTLE DIE ANZAHL DER AKTUELLEN INFEKTIONEN
+                // GESAMT - INFEKTIONEN
 
                 for(i = 0; i < jsonVar.length; i++) {           
-                    
-                    aktuelleInfektionen =  aktuelleInfektionen + jsonVar[i].attributes.AnzahlFall;          
+                    // GESAMTINFEKTIONEN
+                    gesamtInfektionen =  gesamtInfektionen + jsonVar[i].attributes.AnzahlFall;          
                 };
-
-                // ERMITTLE DIE GESAMTANZAHL DER INFIZIERTEN SEIT ZÄHLUNG
+		         
+                // AKTUELLE INFEKTIONEN
+                aktuelleInfektionen = gesamtInfektionen - genesene;          
+                   
+		    
+                // ERMITTLE DIE GESAMTANZAHL DER INFIZIERTEN SEIT ZÄHLUNG = FALSCH
                 
+                //for(i = 0; i < jsonVar.length; i++) {           
+                    
+                //    gesamtInfektionen =  gesamtInfektionen + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                //};
+
+                // Alle Fälle Geschlecht männlich
+
                 for(i = 0; i < jsonVar.length; i++) {           
                     
-                    gesamtInfektionen =  gesamtInfektionen + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                    if (jsonVar[i].attributes.Geschlecht == "M") {
+                                            
+                        mannSumAll = mannSumAll + jsonVar[i].attributes.AnzahlFall;
+                    };
                 };
 
-                // Ermittle aktuelle Fälle Geschlecht männlich
+                // Aktuelle Fälle Geschlecht männlich
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
@@ -422,14 +456,16 @@ function nichtSieben () {
                         mannSum = mannSum + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
+		
+		mannSum = mannSum - genesenMann; 
 
-                // Ermittle ALLE Fälle Geschlecht männlich
+                // Alle Fälle Geschlecht weiblich
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
-                    if (jsonVar[i].attributes.Geschlecht == "M") {
+                    if (jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        mannSumAll = mannSumAll + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        frauSumAll = frauSumAll + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -442,16 +478,8 @@ function nichtSieben () {
                         frauSum = frauSum + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
-
-                // Ermittle ALLE Fälle Geschlecht weiblich
-
-                for(i = 0; i < jsonVar.length; i++) {           
-                    
-                    if (jsonVar[i].attributes.Geschlecht == "W") {
-                                            
-                        frauSumAll = frauSumAll + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
-                    };
-                };
+		    
+		frauSum = frauSum - genesenFrau;
 
                 // Ermittle Anzahl Frauen und Anzahl Männer bei Verstorbenen
 
@@ -617,13 +645,13 @@ function nichtSieben () {
                     };
                 };
 
-                // Ermittle aktuelle Infektionen für Altersgruppen A00-A04, A05-A14, A15-A34, A35-A59, A60-A79, A80+
+                // Gesamt - Infektionen für Altersgruppen A00-A04, A05-A14, A15-A34, A35-A59, A60-A79, A80+
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A00-A04") { //gruppe1
                                             
-                        gruppe1 = gruppe1 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe1All = gruppe1All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -631,7 +659,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14") { //gruppe2
                                             
-                        gruppe2 = gruppe2 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe2All = gruppe2All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -639,7 +667,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34") { //gruppe3
                                             
-                        gruppe3 = gruppe3 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe3All = gruppe3All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -647,7 +675,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59") { //gruppe4
                                             
-                        gruppe4 = gruppe4 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe4All = gruppe4All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -655,7 +683,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79") { //gruppe5
                                             
-                        gruppe5 = gruppe5 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe5All = gruppe5All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -663,67 +691,80 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+") { //gruppe6
                                             
-                        gruppe6 = gruppe6 + jsonVar[i].attributes.AnzahlFall;
+                        gruppe6All = gruppe6All + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
-                // Ermittle ALLE Infektionen für Altersgruppen 00-04, 05-14, 15-34, 35-59, 60-79, 80+
-
-                for(i = 0; i < jsonVar.length; i++) {           
+                // Aktive Infektionen für Altersgruppen 00-04, 05-14, 15-34, 35-59, 60-79, 80+
+		    
+		// 0-4
+                for(i = 0; i < jsonVar.length; i++) {  
                     
-                    if (jsonVar[i].attributes.Altersgruppe == "A00-A04") {
-                                            
-                        gruppe1All = gruppe1All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+			if (jsonVar[i].attributes.Altersgruppe == "A00-A04") {
+                        
+				gruppe1Gen = gruppe1Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
-
+		gruppe1 = gruppe1All - gruppe1Gen;
+		
+		// 5-14   
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14") {
                                             
-                        gruppe2All = gruppe2All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        	gruppe2Gen = gruppe2Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe2 = gruppe2All - gruppe2Gen;
 
+		// 15-34
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34") {
                                             
-                        gruppe3All = gruppe3All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe3Gen = gruppe3Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe3 = gruppe3All - gruppe3Gen;
 
+		// 35-59
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59") {
                                             
-                        gruppe4All = gruppe4All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe4Gen = gruppe4Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
-
+		gruppe4 = gruppe4All - gruppe4Gen;
+		    
+		// 60-79
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79") {
                                             
-                        gruppe5All = gruppe5All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe5Gen = gruppe5Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
-
+		gruppe5 = gruppe5All - gruppe5Gen;
+		    
+		// 80+
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+") {
                                             
-                        gruppe6All = gruppe6All + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe6Gen = gruppe6Gen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe6 = gruppe6All - gruppe6Gen;
 
-                // Aktuelle Infektionen nach Altersgruppe und Geschlecht
+                
+		// Gesamt - Infektionen nach Altersgruppe und Geschlecht
                 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A00-A04" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe1Mann = gruppe1Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe1AllMann = gruppe1AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -731,7 +772,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A00-A04" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe1Frau = gruppe1Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe1AllFrau = gruppe1AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -739,7 +780,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe2Mann = gruppe2Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe2AllMann = gruppe2AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -747,7 +788,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe2Frau = gruppe2Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe2AllFrau = gruppe2AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -755,7 +796,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe3Mann = gruppe3Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe3AllMann = gruppe3AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -763,7 +804,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe3Frau = gruppe3Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe3AllFrau = gruppe3AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -771,7 +812,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe4Mann = gruppe4Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe4AllMann = gruppe4AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -779,7 +820,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe4Frau = gruppe4Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe4AllFrau = gruppe4AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -787,7 +828,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe5Mann = gruppe5Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe5AllMann = gruppe5AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -795,7 +836,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe5Frau = gruppe5Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe5AllFrau = gruppe5AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -803,7 +844,7 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe6Mann = gruppe6Mann + jsonVar[i].attributes.AnzahlFall;
+                        gruppe6AllMann = gruppe6AllMann + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
@@ -811,117 +852,130 @@ function nichtSieben () {
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe6Frau = gruppe6Frau + jsonVar[i].attributes.AnzahlFall;
+                        gruppe6AllFrau = gruppe6AllFrau + jsonVar[i].attributes.AnzahlFall;
                     };
                 };
 
-                // ALLE Infektionen seit Zählung nach Altersgruppe und Geschlecht
-
+                // Aktive Infektionen nach Altersgruppe und Geschlecht
+		
+		// 0-4
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A00-A04" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe1AllMann = gruppe1AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe1MannGen = gruppe1MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe1Mann = gruppe1AllMann - gruppe1MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A00-A04" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe1AllFrau = gruppe1AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe1FrauGen = gruppe1FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe1Frau = gruppe1AllFrau - gruppe1FrauGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe2AllMann = gruppe2AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe2MannGen = gruppe2MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe2Mann = gruppe2AllMann - gruppe2MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A05-A14" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe2AllFrau = gruppe2AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe2FrauGen = gruppe2FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe2Frau = gruppe2AllFrau - gruppe2FrauGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe3AllMann = gruppe3AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe3MannGen = gruppe3MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe3Mann = gruppe3AllMann - gruppe3MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A15-A34" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe3AllFrau = gruppe3AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe3FrauGen = gruppe3FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe3Frau = gruppe3AllFrau - gruppe3FrauGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe4AllMann = gruppe4AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe4MannGen = gruppe4MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe4Mann = gruppe4AllMann - gruppe4MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A35-A59" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe4AllFrau = gruppe4AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe4FrauGen = gruppe4FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe4Frau = gruppe4AllFrau - gruppe4FrauGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe5AllMann = gruppe5AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe5MannGen = gruppe5MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe5Mann = gruppe5AllMann - gruppe5MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A60-A79" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe5AllFrau = gruppe5AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe5FrauGen = gruppe5FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe5Frau = gruppe5AllFrau - gruppe5FrauGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+" && jsonVar[i].attributes.Geschlecht == "M") {
                                             
-                        gruppe6AllMann = gruppe6AllMann + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe6MannGen = gruppe6MannGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe6Mann = gruppe6AllMann - gruppe6MannGen;
 
                 for(i = 0; i < jsonVar.length; i++) {           
                     
                     if (jsonVar[i].attributes.Altersgruppe == "A80+" && jsonVar[i].attributes.Geschlecht == "W") {
                                             
-                        gruppe6AllFrau = gruppe6AllFrau + jsonVar[i].attributes.AnzahlFall + jsonVar[i].attributes.AnzahlGenesen;
+                        gruppe6FrauGen = gruppe6FrauGen + jsonVar[i].attributes.AnzahlGenesen;
                     };
                 };
+		gruppe6Frau = gruppe6AllFrau - gruppe6FrauGen;
 
                 // LOGGE ERGEBNISSE
 
                 //console.log("Datenstand: " + jsonVar[0].attributes.Datenstand);
-                $("#rkiUpdate").append(jsonVar[0].attributes.Datenstand);
+                $("#cbUpdate").append(jsonVar[0].attributes.Datenstand);
 
                 //console.log("Verstorben: " + todesfaelle);
                 //console.log("Verstorbene Frauen: " + todesfaelleFrau);
                 //console.log("Verstorbene Männer: " + todesfaelleMann);
-                $("#rkiVerstor").append(todesfaelle + " (W " + todesfaelleFrau + " / M " + todesfaelleMann + ")");
+                $("#cbVerstor").append(todesfaelle + " (W " + todesfaelleFrau + " / M " + todesfaelleMann + ")");
                 
                 //console.log("Verstorbene im Alter 0 - 4: " + gruppe1Tot);
                 //console.log("Verstorbene im Alter 5 - 14: " + gruppe2Tot);
@@ -945,11 +999,11 @@ function nichtSieben () {
                 //console.log("Verstorbene Männer Alter 80+: " + gruppe6MannTot);
 
                 //console.log("Genesen: " + genesene);
-                $("#rkiGen").append(genesene + " (W " + genesenFrau + " / M " + genesenMann + ")");
+                $("#cbGen").append(genesene + " (W " + genesenFrau + " / M " + genesenMann + ")");
 
                 //console.log("Aktuell infiziert: " + aktuelleInfektionen);
                 //console.log("Gesamtinfektionen: " + gesamtInfektionen);
-                $("#rkiAktuellInfi").append(aktuelleInfektionen + " (W " + frauSum + " / M " + mannSum + ") / " + gesamtInfektionen); 
+                $("#cbAktuellInfi").append(aktuelleInfektionen + " / " + gesamtInfektionen); 
                 
 
                 //console.log("Aktuell infizierte Frauen: " + frauSum);
@@ -1076,7 +1130,7 @@ new Chart(document.getElementById("chart3"), {
         legend: { display: false },
         title: {
         display: true,
-        text: 'Aktuelle Infekte - Altersgruppe'
+        text: 'Aktive Infekte - Altersgruppe'
       }
     }
 });
@@ -1103,7 +1157,7 @@ new Chart(document.getElementById("chart4"), {
         legend: { display: false },
         title: {
         display: true,
-        text: 'Aktuelle Infekte - Altersgruppe & Geschlecht'
+        text: 'Aktive Infekte - Altersgruppe & Geschlecht'
       }
     }
 });
